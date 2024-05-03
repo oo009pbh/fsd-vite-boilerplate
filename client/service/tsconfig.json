@@ -1,0 +1,115 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "downlevelIteration": true,
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "jsx": "preserve",
+    "module": "esnext",
+    "moduleResolution": "Node",
+    "target": "es5",
+    "strict": true,
+    "resolveJsonModule": true,
+    "jsxImportSource": "@emotion/react",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@pages/*": [
+        "src/pages/*"
+      ],
+      "@routes": [
+        "src/routes"
+      ],
+      "@atom/*": [
+        "src/common/component/atom/*"
+      ],
+      "@atom": [
+        "src/common/component/atom"
+      ],
+      "@molecule/*": [
+        "src/common/component/molecule/*"
+      ],
+      "@molecule": [
+        "src/common/component/molecule"
+      ],
+      "@organisms/*": [
+        "src/common/component/organisms/*"
+      ],
+      "@organisms": [
+        "src/common/component/organisms"
+      ],
+      "@template/*": [
+        "src/common/component/template/*"
+      ],
+      "@context": [
+        "src/common/context"
+      ],
+      "@context/*": [
+        "src/common/context/*"
+      ],
+      "@api": [
+        "src/api"
+      ],
+      "@api/*": [
+        "src/api/*"
+      ],
+      "@util/*": [
+        "src/common/util/*"
+      ],
+      "@util": [
+        "src/common/util"
+      ],
+      "@store": [
+        "src/common/store"
+      ],
+      "@store/*": [
+        "src/common/store/*"
+      ],
+      "@action/*": [
+        "src/common/store/action/*"
+      ],
+      "@globalStyles": [
+        "src/styles"
+      ],
+      "@globalStyles/*": [
+        "src/styles/*"
+      ],
+      "@hooks/*": [
+        "src/hooks/*"
+      ],
+      "@hooks": [
+        "src/hooks"
+      ],
+      "@typings/*": [
+        "src/typings/*"
+      ],
+      "@typings": [
+        "src/typings"
+      ],
+      "@locales/*": [
+        "src/locales/*"
+      ]
+    },
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "global.d.ts",
+    "svg.d.ts",
+    "vite-env.d.ts",
+    "src"
+  ],
+  "types": [
+    "vite-plugin-svgr/client"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
