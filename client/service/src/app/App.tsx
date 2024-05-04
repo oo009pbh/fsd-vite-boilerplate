@@ -12,7 +12,7 @@ import { GlobalModalProvider } from '@context/modal';
 import { SystemProvider } from '@context/system';
 import { DateProvider } from '@context/date';
 import { Global } from '@emotion/react';
-import Root from './pages/Root';
+import Root from '@pages/Root';
 
 function App() {
   return (
