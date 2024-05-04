@@ -5,7 +5,7 @@ import React from 'react';
 import CalendarHeader from '@molecule/CalendarHeader';
 import { CalendarContent } from '@molecule';
 import { useDateContext } from '@context/date';
-import { useSystem } from '@context/system';
+import { useSystemContext } from '@context/system';
 import Button from '@atom/Button';
 import { CalendarWrapper } from './styles';
 import { CalendarType } from './Calendar';
@@ -18,7 +18,7 @@ import { CalendarType } from './Calendar';
  * @constructor
  */
 function Calendar({ className = '' }: React.PropsWithChildren<CalendarType>) {
-  const { isShowHoliday, setIsShowHoliday } = useSystem();
+  const { isShowHoliday, setIsShowHoliday } = useSystemContext();
 
   const {
     currentMonth,

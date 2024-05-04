@@ -3,11 +3,11 @@ import contextFactory from '@context/contextFactory';
 // eslint-disable-next-line import/no-cycle
 import GlobalModal from '@context/modal/GlobalModal';
 
-import useGlobalModalContextState from '@context/modal/useGlobalModalContextState';
+import useModalContextState from '@context/modal/useModalContextState';
 
 const { Provider, useContext } = contextFactory(
-  useGlobalModalContextState,
+  useModalContextState,
   <GlobalModal />,
 );
 
-export { Provider as GlobalModalProvider, useContext as useGlobalModal };
+export { Provider as ModalProvider, useContext as useModalContext };

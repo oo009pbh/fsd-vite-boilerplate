@@ -4,4 +4,4 @@ import useGlobalSystemContextState from './useGlobalSystemContextState';
 
 const { Provider, useContext } = contextFactory(useGlobalSystemContextState);
 
-export { Provider as SystemProvider, useContext as useSystem };
+export { Provider as SystemProvider, useContext as useSystemContext };

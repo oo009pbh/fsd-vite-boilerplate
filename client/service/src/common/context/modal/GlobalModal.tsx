@@ -2,11 +2,11 @@ import React from 'react';
 
 // Component
 import CenterModal from '@molecule/CenterModal';
-import { useGlobalModal } from '@context/modal';
+import { useModalContext } from '@context/modal';
 
 // Context
 function GlobalModal() {
-  const { confirmModalHandler } = useGlobalModal();
+  const { confirmModalHandler } = useModalContext();
 
   return (
     <>{confirmModalHandler && <CenterModal handler={confirmModalHandler} />}</>

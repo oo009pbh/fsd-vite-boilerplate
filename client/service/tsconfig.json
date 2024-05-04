@@ -20,6 +20,18 @@
       "@/*": [
         "src/*"
       ],
+      "@app/*": [
+        "src/app/*"
+      ],
+      "@app": [
+        "src/app"
+      ],
+      "@shared/*": [
+        "src/shared/*"
+      ],
+      "@shared": [
+        "src/shared"
+      ],
       "@pages/*": [
         "src/pages/*"
       ],

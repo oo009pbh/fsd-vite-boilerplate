@@ -124,6 +124,8 @@ export default defineConfig(({ mode }) => ({
   resolve: {
     alias: {
       '@': resolve(__dirname, './src'),
+      '@app': resolve(__dirname, 'src/app'),
+      '@shared': resolve(__dirname, 'src/shared'),
       '@pages': resolve(__dirname, 'src/pages'),
       '@atom': resolve(__dirname, 'src/common/component/atom'),
       '@molecule': resolve(__dirname, 'src/common/component/molecule'),
@@ -131,8 +133,6 @@ export default defineConfig(({ mode }) => ({
       '@template': resolve(__dirname, 'src/common/component/template'),
       '@api': resolve(__dirname, 'src/api'),
       '@util': resolve(__dirname, 'src/common/util'),
-      '@store': resolve(__dirname, 'src/common/store'),
-      '@action': resolve(__dirname, 'src/common/store/action'),
       '@globalStyles': resolve(__dirname, 'src/styles'),
       '@hooks': resolve(__dirname, 'src/hooks'),
       '@typings': resolve(__dirname, 'src/typings'),
