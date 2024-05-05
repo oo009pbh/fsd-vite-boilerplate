@@ -1,7 +1,7 @@
 import React from 'react'; // Component
 import { CalendarCell, CalendarInput, HolidayRow, Icon } from '@atom';
 import { CalendarContent } from '@molecule';
-import { Colors, Icons } from '@globalStyles';
+import { Colors, Icons } from '@shared';
 import { useDateContext } from '@app/providers';
 import CalendarHeader from '@molecule/CalendarHeader';
 // eslint-disable-next-line import/no-unresolved

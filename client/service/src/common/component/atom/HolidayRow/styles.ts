@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import { CssVariantType } from '@typings/commonUseType';
 import { css } from '@emotion/react';
 import { HolidayRowType } from '@atom/HolidayRow/HolidayRow';
-import { Colors } from '@globalStyles';
+import { Colors } from '@shared';
 
 export const HolidayRowSizes: CssVariantType = {
   default: () => css`

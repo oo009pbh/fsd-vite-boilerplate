@@ -3,7 +3,7 @@ import { css, keyframes } from '@emotion/react';
 
 // typings
 import { ButtonType } from '@typings/common/atom';
-import { Colors, fontGenerator } from '@globalStyles';
+import { Colors, fontGenerator } from '@shared';
 import { CssVariantType } from '@typings/commonUseType';
 
 const animateButton = keyframes`

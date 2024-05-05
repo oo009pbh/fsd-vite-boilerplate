@@ -4,7 +4,7 @@ import React from 'react';
 import { CalendarCell } from '@atom';
 import { DateUtil } from '@util';
 import { css } from '@emotion/react';
-import { Colors } from '@globalStyles';
+import { Colors } from '@shared';
 import { CalendarContentType } from './CalendarContent';
 
 // styles

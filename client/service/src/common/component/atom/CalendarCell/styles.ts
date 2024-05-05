@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import { css } from '@emotion/react';
 
 // styles
-import { Colors, flexCssGenerator, fontGenerator } from '@globalStyles';
+import { Colors, flexCssGenerator, fontGenerator } from '@shared';
 
 // typings
 import { CssVariantType } from '@typings/commonUseType';

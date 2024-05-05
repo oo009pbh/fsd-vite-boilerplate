@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 // styles
-import { Colors, flexCssGenerator, fontGenerator } from '@globalStyles';
+import { Colors, flexCssGenerator, fontGenerator } from '@shared';
 import { css } from '@emotion/react';
 import { CssVariantType, CustomStyleType } from '@typings/commonUseType';
 
@@ -21,7 +21,7 @@ export const CenterModalStyles: CssVariantType<CustomStyleType> = {
       }
 
       & > div.center__modal--notice {
-        display: ${!!props.variant ? 'none' : 'block'};
+        display: ${props.variant ? 'none' : 'block'};
         font-family: 'Poppins', sans-serif;
         ${fontGenerator('1.4rem', '400', 'normal')}
         white-space: pre-line;

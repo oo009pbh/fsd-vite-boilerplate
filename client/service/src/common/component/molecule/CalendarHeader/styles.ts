@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 // styles
 // typings
-import { Colors } from '@globalStyles';
+import { Colors } from '@shared';
 import { CalendarHeaderType } from './CalendarHeader';
 
 export const CalendarHeaderWrapper = styled.div<CalendarHeaderType>`

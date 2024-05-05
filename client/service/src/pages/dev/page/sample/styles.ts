@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { Colors } from '@globalStyles';
+import { Colors } from '@shared';
 
 export const SampleMain = styled.main`
   background-color: ${Colors.White};

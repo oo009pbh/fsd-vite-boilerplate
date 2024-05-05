@@ -1,5 +1,3 @@
-export interface colorType extends Record<string, string> {}
-
 export const Colors = {
   Black: '#000000',
   Gray90: '#212324',

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 // Styles
 import { css } from '@emotion/react';
-import { Colors, Icons } from '@globalStyles';
+import { Colors, Icons } from '@shared';
 import { ModalType } from '@typings/common/atom';
 import { ModalContent, ModalOverlay } from './styles';
 

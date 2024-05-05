@@ -4,7 +4,7 @@ import React, { MouseEvent } from 'react';
 import { IconType } from '@typings/common/atom';
 
 // Style
-import { Colors, Images } from '@globalStyles';
+import { Colors, Images } from '@shared';
 import { css } from '@emotion/react';
 
 /**

@@ -2,7 +2,7 @@ import React from 'react';
 
 // typings
 import { CalendarInput, Icon } from '@atom';
-import { Colors, Icons } from '@globalStyles';
+import { Colors, Icons } from '@shared';
 import { css } from '@emotion/react';
 import { CalendarHeaderType } from './CalendarHeader';
 

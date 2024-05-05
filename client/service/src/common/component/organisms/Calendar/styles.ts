@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 // styles
 // typings
-import { Colors } from '@globalStyles';
+import { Colors } from '@shared';
 import { CalendarType } from './Calendar';
 
 export const CalendarWrapper = styled.div<CalendarType>`

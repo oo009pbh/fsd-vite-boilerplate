@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { Colors } from '@globalStyles';
+import { Colors } from '@shared';
 import { CssVariantType } from '@typings/commonUseType';
 import { css } from '@emotion/react';
 import { CalendarInputType } from './CalendarInput';
