@@ -14,7 +14,7 @@ import 'animate.css';
 // Context
 // Hooks
 // Routes
-import { devRoutes } from '@routes';
+import { devRoutes } from '@app/routes';
 
 const index = () => {
   return (
