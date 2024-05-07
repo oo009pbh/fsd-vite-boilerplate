@@ -1,10 +1,10 @@
 // Hooks & Utils
-import * as RestApi from '@api/api';
-import { queryKeys, useQuery } from '@api/reactQuery';
+import * as RestApi from '@shared/api/api';
+import { queryKeys, useQuery } from '@shared/api/reactQuery';
 import { apiUrls } from '@util/config'; // Typings
-import { PromiseFnType } from '@api/reactQuery/typings/query';
-import { PublicHoliday } from '@api/endpoints/holiday';
-import { VariablesQueryKeyType } from '@api/reactQuery/typings/queryKeys';
+import { PromiseFnType } from '@shared/api/reactQuery/typings/query';
+import { PublicHoliday } from '@shared/api/endpoints/holiday/index';
+import { VariablesQueryKeyType } from '@shared/api/reactQuery/typings/queryKeys';
 
 const getHolidayList: PromiseFnType<
   PublicHoliday[],

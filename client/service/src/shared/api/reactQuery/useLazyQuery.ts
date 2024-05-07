@@ -5,7 +5,7 @@ import {
 } from '@tanstack/react-query';
 
 // Typings
-import { UseQueryType } from '@api/reactQuery/typings/query';
+import { UseQueryType } from '@shared/api/reactQuery/typings/query';
 import { useCallback, useState } from 'react';
 
 export default function useLazyQuery<

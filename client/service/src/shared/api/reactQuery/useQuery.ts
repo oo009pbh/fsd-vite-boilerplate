@@ -2,7 +2,7 @@ import { AxiosError } from 'axios';
 import { useQuery as useQueryOrigin } from '@tanstack/react-query';
 
 // Typings
-import { UseQueryType } from '@api/reactQuery/typings/query';
+import { UseQueryType } from '@shared/api/reactQuery/typings/query';
 
 /**
  * @description 사용자 정의 useQuery hook

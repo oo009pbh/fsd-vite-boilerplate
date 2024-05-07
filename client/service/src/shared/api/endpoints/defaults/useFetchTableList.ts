@@ -1,15 +1,15 @@
 // Hooks & Utils
-import { queryKeys, useQuery } from '@api/reactQuery';
-import * as RestApi from '@api/api';
+import { queryKeys, useQuery } from '@shared/api/reactQuery';
+import * as RestApi from '@shared/api/api';
 
 // Typings
-import { PromiseFnType } from '@api/reactQuery/typings/query';
-import { ServerResponseDto } from '@api/endpoints/typings/endpoints';
+import { PromiseFnType } from '@shared/api/reactQuery/typings/query';
+import { ServerResponseDto } from '@shared/api/endpoints/typings/endpoints';
 import {
   ApiParamsType,
   ListDto,
   TableListParamsType,
-} from '@api/endpoints/defaults/typings/defaults';
+} from '@shared/api/endpoints/defaults/typings/defaults';
 
 const fetchTableList: PromiseFnType<
   ServerResponseDto<ListDto>,

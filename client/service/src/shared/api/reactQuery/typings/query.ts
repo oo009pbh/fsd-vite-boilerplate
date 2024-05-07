@@ -1,7 +1,7 @@
 import React from 'react';
 import { AxiosError } from 'axios';
 import { UseMutationOptions, UseQueryOptions } from '@tanstack/react-query';
-import { QueryKeyType } from '@api/reactQuery/typings/queryKeys';
+import { QueryKeyType } from '@shared/api/reactQuery/typings/queryKeys';
 import { ParamsType } from '@typings/commonUseType';
 
 export type QueryPersistGateType = {

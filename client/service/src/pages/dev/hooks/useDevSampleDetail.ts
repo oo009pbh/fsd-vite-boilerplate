@@ -1,5 +1,5 @@
 import { PropsWithChildren, useEffect, useState } from 'react';
-import * as RestApi from '@api/api';
+import * as RestApi from '@shared/api/api';
 
 // Typings
 import { UseDevSampleDetailType } from '@pages/dev/typings/hooks';

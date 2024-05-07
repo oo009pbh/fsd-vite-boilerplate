@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import { QueryClientProvider } from '@tanstack/react-query';
-import { queryClient } from '@api/reactQuery';
+import { queryClient } from '@shared/api/reactQuery';
 import QueryPersistGate from '@template/QueryPersistGate';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { DateProvider, ModalProvider, SystemProvider } from '@app/providers';

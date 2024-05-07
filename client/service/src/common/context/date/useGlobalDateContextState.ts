@@ -1,7 +1,7 @@
 import dayjs from 'dayjs';
 import { useEffect, useState } from 'react';
 import { DateUtil } from '@util';
-import { useGetHolidays } from '@api/endpoints/holiday/useGetHolidays';
+import { useGetHolidays } from '@shared/api/endpoints/holiday/useGetHolidays';
 import { DateArrayType, ParamsType } from '@typings/commonUseType';
 import { useSystemContext } from '@context/system';
 
