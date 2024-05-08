@@ -1,4 +1,4 @@
-import { handlerModal } from '@hooks/useModal';
+import { handlerModal } from '@shared';
 import { CenterModalParamsType } from '@typings/common/molecule';
 
 const useModalContextState = () => {

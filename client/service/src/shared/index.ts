@@ -8,3 +8,4 @@ export {
   textEllipsisGenerator,
 } from './styles/generator';
 export { Images } from './styles/images';
+export { handlerModal } from './hooks/useModal';
