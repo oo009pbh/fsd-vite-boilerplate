@@ -1,5 +1,5 @@
 import { QueryClient } from '@tanstack/react-query';
-import { CACHE_TIME, STALE_TIME } from '@util/const';
+import { Const } from '@shared';
 
 /**
  * @description QueryClient 객체 생성
@@ -7,8 +7,8 @@ import { CACHE_TIME, STALE_TIME } from '@util/const';
 export const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
-      cacheTime: CACHE_TIME,
-      staleTime: STALE_TIME,
+      cacheTime: Const.CACHE_TIME,
+      staleTime: Const.STALE_TIME,
     },
   },
 });

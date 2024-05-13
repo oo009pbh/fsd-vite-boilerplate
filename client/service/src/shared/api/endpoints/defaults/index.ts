@@ -1,3 +1,3 @@
-import { useFetchTableList } from './useFetchTableList';
-
-export { useFetchTableList };
+// import { useFetchTableList } from './useFetchTableList';
+//
+// export { useFetchTableList };
