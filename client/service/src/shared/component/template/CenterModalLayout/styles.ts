@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const CenterModalLayout = styled.dialog`
+export const CenterModalLayoutWrapper = styled.dialog`
   position: fixed;
   left: 50%;
   top: 50%;

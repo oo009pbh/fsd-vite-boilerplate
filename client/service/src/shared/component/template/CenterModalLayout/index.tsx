@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 import { CenterModalLayoutType } from '@typings/common/template';
 import { css } from '@emotion/react';
-import { CenterModalLayout } from './styles';
+import { CenterModalLayoutWrapper } from './styles';
 
 /**
  * @description 중앙정렬 모달 레이아웃
@@ -14,14 +14,14 @@ import { CenterModalLayout } from './styles';
  *
  * @return {JSX.Element}
  */
-const index = ({
+function CenterModalLayout({
   modalRef,
   onToggleModal,
   customStyle = css``,
   className = '',
   backDropFunction = () => {},
   children,
-}: React.PropsWithChildren<CenterModalLayoutType>) => {
+}: React.PropsWithChildren<CenterModalLayoutType>) {
   useEffect(() => {
     if (modalRef.current) {
       modalRef.current.addEventListener('click', (event: MouseEvent) => {
@@ -45,10 +45,14 @@ const index = ({
   }, [backDropFunction]);
 
   return (
-    <CenterModalLayout className={className} css={customStyle} ref={modalRef}>
+    <CenterModalLayoutWrapper
+      className={className}
+      css={customStyle}
+      ref={modalRef}
+    >
       {children}
-    </CenterModalLayout>
+    </CenterModalLayoutWrapper>
   );
-};
+}
 
-export default index;
+export default CenterModalLayout;
