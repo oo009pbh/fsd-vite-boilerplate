@@ -39,73 +39,31 @@
         "src/routes"
       ],
       "@atom/*": [
-        "src/common/component/atom/*"
+        "src/shared/component/atom/*"
       ],
       "@atom": [
-        "src/common/component/atom"
+        "src/shared/component/atom"
       ],
       "@molecule/*": [
-        "src/common/component/molecule/*"
+        "src/shared/component/molecule/*"
       ],
       "@molecule": [
-        "src/common/component/molecule"
+        "src/shared/component/molecule"
       ],
       "@organisms/*": [
-        "src/common/component/organisms/*"
+        "src/shared/component/organisms/*"
       ],
       "@organisms": [
-        "src/common/component/organisms"
+        "src/shared/component/organisms"
       ],
       "@template/*": [
-        "src/common/component/template/*"
-      ],
-      "@context": [
-        "src/common/context"
-      ],
-      "@context/*": [
-        "src/common/context/*"
-      ],
-      "@api": [
-        "src/api"
-      ],
-      "@api/*": [
-        "src/api/*"
-      ],
-      "@util/*": [
-        "src/common/util/*"
-      ],
-      "@util": [
-        "src/common/util"
-      ],
-      "@store": [
-        "src/common/store"
-      ],
-      "@store/*": [
-        "src/common/store/*"
-      ],
-      "@action/*": [
-        "src/common/store/action/*"
-      ],
-      "@globalStyles": [
-        "src/styles"
-      ],
-      "@globalStyles/*": [
-        "src/styles/*"
-      ],
-      "@hooks/*": [
-        "src/hooks/*"
-      ],
-      "@hooks": [
-        "src/hooks"
+        "src/shared/component/template/*"
       ],
       "@typings/*": [
         "src/typings/*"
       ],
       "@typings": [
         "src/typings"
-      ],
-      "@locales/*": [
-        "src/locales/*"
       ]
     },
     "allowJs": true,
