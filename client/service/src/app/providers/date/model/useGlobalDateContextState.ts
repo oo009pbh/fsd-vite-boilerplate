@@ -1,9 +1,9 @@
 import dayjs from 'dayjs';
 import { useEffect, useState } from 'react';
-import { DateUtil } from '@util';
+import { DateUtil } from '@shared';
 import { useGetHolidays } from '@shared/api/endpoints/holiday/useGetHolidays';
 import { DateArrayType, ParamsType } from '@typings/commonUseType';
-import { useSystemContext } from '@context/system';
+import { useSystemContext } from '@app/providers';
 
 const useGlobalDateContextState = () => {
   const { data: holidays } = useGetHolidays();
